@@ -33,7 +33,7 @@ const Profile = () => {
             <FaInstagram className="h-5 w-5 text-pink-600" />
           </a>
           <a href="https://www.tiktok.com/@faykalmlbb?_t=8qHhC1W8Ucy&_r=1" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-zinc-100 transition-colors">
-            <FaTiktok className="h-5 w-5 text-white-600" />
+            <FaTiktok className="h-5 w-5 text-gray-600" />
           </a>
           <a href="https://wa.me/6285234754939" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-zinc-100 transition-colors">
             <FaWhatsapp className="h-5 w-5 text-green-600" />
