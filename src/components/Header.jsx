@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { FaSun, FaMoon } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
+import Typing from "./Typing"
 
 const Header = () => {
   const [isDark, setIsDark] = useState(true);
@@ -36,10 +37,12 @@ const Header = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Link to="/" className="text-lg font-bold bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent">
-              Faykal
+           <Link
+            href="/"
+            className="text-lg font-bold bg-gradient-to-r from-yellow-400 via-orange-400 to-pink-500 bg-clip-text text-transparent">
+            <Typing/>
             </Link>
-          </motion.div>
+            </motion.div>
 
           <div className="flex items-center gap-4">
             <motion.button
