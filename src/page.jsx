@@ -7,6 +7,7 @@ import Links from "./components/Links"
 import Loading from "./components/Loader"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
+import Index from "./index"
 
 export default function Home() {
   const [loadingComplete, setLoadingComplete] = useState(false)
@@ -34,6 +35,7 @@ export default function Home() {
               <Profile/>
               <Links/>
               <Footer/>
+              <Index/>
             </>
           )
         }
