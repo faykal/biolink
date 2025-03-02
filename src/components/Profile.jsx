@@ -9,7 +9,7 @@ const Profile = () => {
       <div className="text-center">
         <div className="inline-block relative">
           <img
-            src="/logo.jpg"
+            src="/logo2.jpg"
             alt="Profile"
             className="w-20 h-20 rounded-full border-2 border-white/20 bg-gray-600 transition-transform hover:scale-105"
             onError={(e) => {
