@@ -16,7 +16,6 @@ const Profile = () => {
               e.target.innerText = 'NA';
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full animate-pulse"></div>
         </div>
         <h1 className="text-lg font-bold mt-2">Faykal <RiVerifiedBadgeFill className="inline text-blue-500" /></h1>
         
