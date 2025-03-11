@@ -1,16 +1,15 @@
+import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "flowbite-react";
 
-import React from "react";
-
-const Footer = () => {
+export function Component() {
   return (
-    <footer className="text-center mt-6 text-sm text-gray-400">
-      <hr className="h-px bg-gray-800 my-4 border-0" />
-      <p><Faykal></Faykal></p>
-      <div className="flex justify-center items-center gap-2 mt-1">
-        <p>No listening to anything</p>
-      </div>
-    </footer>
+    <Footer container>
+      <FooterCopyright href="#" by="Flowbite™" year={2022} />
+      <FooterLinkGroup>
+        <FooterLink href="#">About</FooterLink>
+        <FooterLink href="#">Privacy Policy</FooterLink>
+        <FooterLink href="#">Licensing</FooterLink>
+        <FooterLink href="#">Contact</FooterLink>
+      </FooterLinkGroup>
+    </Footer>
   );
-};
-
-export default Footer;
+}
