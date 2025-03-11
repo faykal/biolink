@@ -1,15 +1,18 @@
-import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "flowbite-react";
+jsx
+import React from "react";
+import { FaSpotify } from "react-icons/fa";
 
-export function Component() {
+const Footer = () => {
   return (
-    <Footer container>
-      <FooterCopyright href="#" by="Flowbite™" year={2022} />
-      <FooterLinkGroup>
-        <FooterLink href="#">About</FooterLink>
-        <FooterLink href="#">Privacy Policy</FooterLink>
-        <FooterLink href="#">Licensing</FooterLink>
-        <FooterLink href="#">Contact</FooterLink>
-      </FooterLinkGroup>
-    </Footer>
+    <footer className="text-center mt-6 text-sm text-gray-400">
+      <hr className="h-px bg-gray-800 my-4 border-0" />
+      <p>See what I'm currently listening on Spotify</p>
+      <div className="flex justify-center items-center gap-2 mt-1">
+        <FaSpotify className="text-green-500" />
+        <p>No listening to anything</p>
+      </div>
+    </footer>
   );
-}
+};
+
+export default Footer;
