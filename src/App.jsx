@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Profile from "./components/Profile";
 import Links from "./components/Links";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Room from "./pages/Room";
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
               <div className="flex flex-col items-center justify-center px-4 py-20">
                 <Profile />
                 <Links />
+                <Footer />
               </div>
             </main>
           } />
