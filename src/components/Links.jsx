@@ -6,7 +6,7 @@ const links = [
   { title: "Personal Store", description: "About store me.", url: "https://autoresbot.com/tmp_files/330b3e41-89c5-4857-956b-ad3771efc4d2.jpeg", icon: "🌐" },
   { title: "Faykal BOT", description: "Make things easier for you through faykal bot.", url: "https://wa.me/62882005354232?text=.allmenu", icon: "🪐" },
   { title: "Faykal Channel", description: "Information about bots.", url: "https://whatsapp.com/channel/0029Vax4ADpI1rcZh3aveq1e", icon: "🕊️" },
-  { title: "Donate", description: "Donate as you wish.", url: "pay.faykalbotz.my.id", icon: "💰" }
+  { title: "Donate", description: "Donate as you wish.", url: "https://pay.faykalbotz.my.id", icon: "💰" }
 ];
 
 const Links = () => {
