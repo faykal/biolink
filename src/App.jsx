@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div className="bg-white dark:bg-black text-gray-900 dark:text-white min-h-screen font-sans transition-colors duration-300">
+      <div className="bg-gray dark:bg-black text-gray-900 dark:text-white min-h-screen font-sans transition-colors duration-300">
         <Header />
         <Routes>
           <Route path="/" element={
