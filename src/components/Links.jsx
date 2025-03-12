@@ -17,7 +17,7 @@ const Links = () => {
         <a 
           key={index}
           href={link.url}
-          className={`flex items-center justify-between p-3 bg-gray-100/80 dark:bg-white/5 backdrop-blur-lg hover:bg-gray-200/80 dark:hover:bg-white/10 ${link.isSpotify ? 'rounded-full' : 'rounded-lg'} transition-all duration-300 cursor-pointer group hover:translate-x-1 border border-gray-200/50 dark:border-white/10 shadow-lg`}
+          className={`flex items-center justify-between p-3 bg-gray-100/80 dark:bg-gray/5 backdrop-blur-lg hover:bg-gray-200/80 dark:hover:bg-gray/10 ${link.isSpotify ? 'rounded-full' : 'rounded-lg'} transition-all duration-300 cursor-pointer group hover:translate-x-1 border border-gray-200/50 dark:border-gray/10 shadow-lg`}
         >
           {link.isSpotify ? (
             <>
