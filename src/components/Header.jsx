@@ -31,7 +31,7 @@ const Header = () => {
       animate={{ y: 0 }}
       className="fixed top-0 left-0 right-0 z-50"
     >
-      <nav className="p-3 bg-gray/80 dark:bg-black/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800">
+      <nav className="p-3 bg-white/80 dark:bg-black/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <motion.div
             whileHover={{ scale: 1.05 }}
@@ -81,20 +81,20 @@ const Header = () => {
                     rotate: isOpen ? 45 : 0,
                     y: isOpen ? 8 : 0
                   }}
-                  className="block h-0.5 bg-gray-800 dark:bg-gray origin-center"
+                  className="block h-0.5 bg-gray-800 dark:bg-white origin-center"
                 />
                 <motion.span
                   animate={{
                     opacity: isOpen ? 0 : 1
                   }}
-                  className="block h-0.5 bg-gray-800 dark:bg-gray"
+                  className="block h-0.5 bg-gray-800 dark:bg-white"
                 />
                 <motion.span
                   animate={{
                     rotate: isOpen ? -45 : 0,
                     y: isOpen ? -8 : 0
                   }}
-                  className="block h-0.5 bg-gray-800 dark:bg-gray origin-center"
+                  className="block h-0.5 bg-gray-800 dark:bg-white origin-center"
                 />
               </div>
             </motion.button>
@@ -108,7 +108,7 @@ const Header = () => {
               animate="animate"
               exit="exit"
               variants={menuVariants}
-              className="absolute top-full left-0 right-0 bg-gray/90 dark:bg-black/90 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800"
+              className="absolute top-full left-0 right-0 bg-white/90 dark:bg-black/90 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800"
             >
               <nav className="max-w-7xl mx-auto p-4">
                 <motion.div
