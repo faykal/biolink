@@ -20,7 +20,7 @@ const Profile = () => {
         <h1 className="text-lg font-bold mt-2">Faykal <RiVerifiedBadgeFill className="inline text-blue-500" /></h1>
         
           
-        <p className="text-gray-400 text-xs">ただの夢想家</p>
+        <p className="text-gray-400 text-xs">Dreamer, Thinker, Doer.</p>
         <div className="flex justify-center gap-2 mt-3">
           <span className="bg-white/5 px-3 py-1 rounded-full text-xs hover:bg-white/10 transition-all hover:scale-105 ring-1 ring-yellow-500">Coding</span>
           <span className="bg-white/5 px-3 py-1 rounded-full text-xs hover:bg-white/10 transition-all hover:scale-105 ring-1 ring-yellow-500">Sleep</span>
@@ -34,7 +34,7 @@ const Profile = () => {
           <a href="https://www.tiktok.com/@faykalmlbb?_t=8qHhC1W8Ucy&_r=1" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-zinc-100 transition-colors">
             <FaTiktok className="h-5 w-5 text-gray-600" />
           </a>
-          <a href="https://wa.me/6285234754939" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-zinc-100 transition-colors">
+          <a href="https://wa.me/14504801150" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-zinc-100 transition-colors">
             <FaWhatsapp className="h-5 w-5 text-green-600" />
           </a>
         </div>
