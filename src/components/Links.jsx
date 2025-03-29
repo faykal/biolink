@@ -3,7 +3,7 @@ import { FaSpotify } from "react-icons/fa";
 import { HiArrowRight } from "react-icons/hi";
 
 const links = [
-  { title: "Personal Website", description: "About me.", url: "me.faykalbotz.my.id", icon: "🌐" },
+  { title: "Personal Website", description: "About me.", url: "https://me.faykalbotz.my.id/", icon: "🌐" },
   { title: "Personal Store", description: "About store me.", url: "https://autoresbot.com/tmp_files/330b3e41-89c5-4857-956b-ad3771efc4d2.jpeg", icon: "🛒" },
   { title: "Faykal BOT", description: "Make things easier for you through faykal bot.", url: "https://wa.me/62882005354232?text=.allmenu", icon: "🪐" },
   { title: "Faykal Channel", description: "Information about bots.", url: "https://whatsapp.com/channel/0029Vax4ADpI1rcZh3aveq1e", icon: "🕊️" },
